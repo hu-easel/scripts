@@ -1,9 +1,11 @@
 #!/usr/local/bin/bash
 
+source ./stop.sh
+
+echo "Starting Docker"
+
 source ./startDocker.sh
 
-echo "Waiting 60 seconds for docker..."
-sleep 60
 echo "Starting MySQL"
 
 source ./startMysql.sh
