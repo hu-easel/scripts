@@ -12,5 +12,5 @@ source ./startMysql.sh
 
 echo "Starting EASEL"
 
-source ./startApi.sh
+source ./startEasel.sh
 
